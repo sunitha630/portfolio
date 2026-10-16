@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#000000">
-<meta name="description" content="Somisetti Suneeta — Software Developer. Flutter development grounded in strong DSA & competitive programming fundamentals, with 660+ problems solved on LeetCode.">
+<meta name="description" content="Somisetti Suneeta — Mobile App Developer &amp; Competitive Programming Trainer. Flutter development grounded in strong DSA & competitive programming fundamentals, with 660+ problems solved on LeetCode.">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Somisetti Suneeta — Software Developer">
+<meta property="og:title" content="Somisetti Suneeta — Mobile App Developer &amp; Competitive Programming Trainer">
 <meta property="og:description" content="Flutter development grounded in strong DSA & competitive programming fundamentals, with 660+ problems solved on LeetCode.">
-<title>Somisetti Suneeta — Software Developer</title>
+<title>Somisetti Suneeta — Mobile App Developer &amp; Competitive Programming Trainer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -353,6 +353,14 @@ img{display:block;max-width:100%;}
    SUMMARY
    ============================================================================ */
 .summary{margin:0;color:var(--text-2);line-height:1.85;max-width:74ch;}
+.highlights{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;}
+.highlights li{
+  position:relative;padding:11px 14px 11px 18px;
+  background:var(--s2);border:1px solid var(--rule);border-left:3px solid var(--orange);
+  border-radius:2px;font-size:13px;line-height:1.65;color:var(--text-2);
+}
+.highlights b{color:var(--text);font-weight:600;letter-spacing:.01em;}
+.highlights em{font-style:normal;font-weight:600;color:var(--orange-ink);}
 
 /* ============================================================================
    SPLIT: CODING | STATS
@@ -855,7 +863,7 @@ img{display:block;max-width:100%;}
 
     <div class="who">
       <h1>Somisetti Suneeta<svg class="star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9"/></svg></h1>
-      <p class="role">Flutter &amp; AI-Augmented Developer</p>
+      <p class="role">Mobile App Developer &amp; Competitive Programming Trainer</p>
 
       <nav class="profiles" aria-label="Profiles">
         <a class="profile" href="https://leetcode.com/u/sunitha_sunitha" target="_blank" rel="noopener noreferrer">
@@ -898,9 +906,15 @@ img{display:block;max-width:100%;}
     </div>
     <div class="panel-body">
       <p class="summary">
-        Software developer focused on Flutter, grounded in strong DSA &amp; competitive programming fundamentals,
-        and building faster with AI-augmented development workflows.
+        Mobile app developer and competitive programming trainer who builds production Flutter apps
+        and helps learners develop strong problem-solving foundations.
       </p>
+      <ul class="highlights">
+        <li><b>Mobile App Development</b> — Builds Flutter apps with <em>Clean Architecture</em>, <em>BLoC</em> state management and <em>REST API</em> integration, with <em>2 apps live on the Play Store</em>.</li>
+        <li><b>Competitive Programming</b> — <em>660+ problems</em> solved on LeetCode, a <em>365-day streak</em>, and <em>60+ rated contests</em> across LeetCode and CodeChef.</li>
+        <li><b>Training &amp; Mentoring</b> — Trains students in <em>Data Structures &amp; Algorithms</em> and contest problem solving.</li>
+        <li><b>AI-Augmented Development</b> — Ships faster with <em>AI API integration</em>, <em>AI agents</em> and modern AI coding tools.</li>
+      </ul>
     </div>
   </section>
 
@@ -1145,6 +1159,21 @@ img{display:block;max-width:100%;}
           </div>
         </article>
 
+
+        <article class="item">
+          <div class="rail"><span class="num" data-num></span><span class="stem"></span></div>
+          <div class="item-body">
+            <h3>Hostel Management — One App for Every Hostel</h3>
+            <ul class="built"><li>Multi-Hostel</li><li>Student &amp; Warden Roles</li></ul>
+            <p>A single app through which all the hostels of an organization can be managed, with user-friendly features for both students and wardens — bringing day-to-day hostel operations into one place.</p>
+            <ul class="feats">
+              <li>Multiple hostels, one app</li><li>Student features</li><li>Warden features</li><li>User-friendly interface</li>
+            </ul>
+            <a class="launch" href="#" aria-label="Open Hostel Management">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M19 14v5.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 3 19.5v-13A1.5 1.5 0 0 1 4.5 5H10"/></svg>
+            </a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -1160,105 +1189,57 @@ img{display:block;max-width:100%;}
       <div class="certs" id="certs">
 
         <article class="cert">
-          <svg class="cert-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
           <span class="cert-logo">
             <img src="logos/pearson.svg" alt="Pearson"
                  onerror="this.outerHTML='&lt;span class=\'mono\'&gt;Pe&lt;/span&gt;'">
           </span>
           <h3>HTML/CSS Programming</h3>
           <p class="issuer">IT Specialist · Pearson</p>
-          <ul class="cert-meta">
-            <li>Issued <b>—</b></li>
-          </ul>
-          <a class="cert-link" href="#" target="_blank" rel="noopener noreferrer">
-            View Credential
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
         </article>
 
         <article class="cert">
-          <svg class="cert-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
           <span class="cert-logo">
             <img src="logos/pearson.svg" alt="Pearson"
                  onerror="this.outerHTML='&lt;span class=\'mono\'&gt;Pe&lt;/span&gt;'">
           </span>
           <h3>Java Programming</h3>
           <p class="issuer">IT Specialist · Pearson</p>
-          <ul class="cert-meta">
-            <li>Issued <b>—</b></li>
-          </ul>
-          <a class="cert-link" href="#" target="_blank" rel="noopener noreferrer">
-            View Credential
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
         </article>
 
         <article class="cert">
-          <svg class="cert-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
           <span class="cert-logo">
             <img src="logos/pearson.svg" alt="Pearson"
                  onerror="this.outerHTML='&lt;span class=\'mono\'&gt;Pe&lt;/span&gt;'">
           </span>
           <h3>Python Programming</h3>
           <p class="issuer">IT Specialist · Pearson</p>
-          <ul class="cert-meta">
-            <li>Issued <b>—</b></li>
-          </ul>
-          <a class="cert-link" href="#" target="_blank" rel="noopener noreferrer">
-            View Credential
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
         </article>
 
         <article class="cert">
-          <svg class="cert-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
           <span class="cert-logo">
             <img src="logos/cisco.svg" alt="Cisco"
                  onerror="this.outerHTML='&lt;span class=\'mono\'&gt;Ci&lt;/span&gt;'">
           </span>
           <h3>C Programming</h3>
           <p class="issuer">Cisco</p>
-          <ul class="cert-meta">
-            <li>Issued <b>—</b></li>
-          </ul>
-          <a class="cert-link" href="#" target="_blank" rel="noopener noreferrer">
-            View Credential
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
         </article>
 
         <article class="cert">
-          <svg class="cert-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
           <span class="cert-logo">
             <img src="logos/cisco.svg" alt="Cisco"
                  onerror="this.outerHTML='&lt;span class=\'mono\'&gt;Ci&lt;/span&gt;'">
           </span>
           <h3>C++ Programming Essentials</h3>
           <p class="issuer">Cisco</p>
-          <ul class="cert-meta">
-            <li>Issued <b>—</b></li>
-          </ul>
-          <a class="cert-link" href="#" target="_blank" rel="noopener noreferrer">
-            View Credential
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
         </article>
 
         <article class="cert">
-          <svg class="cert-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
           <span class="cert-logo">
             <img src="logos/redhat.svg" alt="Red Hat"
                  onerror="this.outerHTML='&lt;span class=\'mono\'&gt;RH&lt;/span&gt;'">
           </span>
           <h3>RHCSA — Red Hat Certified System Administrator</h3>
           <p class="issuer">Red Hat</p>
-          <ul class="cert-meta">
-            <li>Issued <b>—</b></li>
-          </ul>
-          <a class="cert-link" href="#" target="_blank" rel="noopener noreferrer">
-            View Credential
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
         </article>
 
       </div>
